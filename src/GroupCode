@@ -1,0 +1,21 @@
+Paper Title: 
+Font name: Times New Roman, 
+Font size: 24pt,
+Font style: italic;
+
+// Source code we made
+Sub PaperTitle()
+'
+' PaperTitle Macro
+'
+'
+// Paper Title: 
+// Font name: Times New Roman, 
+// Font size: 24pt,
+// Font style: italic;
+    CommandBars("Navigation").Visible = False
+    Selection.Style = ActiveDocument.Styles("Title")
+    Selection.Font.Name = "Times New Roman"
+    Selection.Font.Size = 24
+    Selection.Font.Italic = wdToggle
+End Sub
