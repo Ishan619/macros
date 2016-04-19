@@ -1,10 +1,15 @@
+// Editted by JiashuoZhang
+// Date: April 14, 2016
+// This macro file is used to standardize the format of the body part in the IEEE double column template
+
 Attribute VB_Name = "NewMacros"
 Sub Macro1()
 Attribute Macro1.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.Macro1"
 '
 ' Macro1 Macro
 '
-'
+'   
+    // Change the font style and sizes
     Selection.Font.Name = "Times New Roman"
     Selection.WholeStory
     Selection.Font.Name = "Times New Roman"
